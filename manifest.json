@@ -9,12 +9,12 @@
   "description": "A serene, minimalistic mobile application for spiritual practitioners.",
   "icons": [
     {
-      "src": "/sadhaka_192.png",
+      "src": "./sadhaka_192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/sadhaka_512.png",
+      "src": "./sadhaka_512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
