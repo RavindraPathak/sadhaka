@@ -17,6 +17,11 @@
       "src": "./sadhaka_512.png",
       "sizes": "512x512",
       "type": "image/png"
+    },
+    {
+      "src": "./sadhaka_1024.png",
+      "type": "image/png",
+      "sizes": "1024x1024"
     }
   ]
 }
