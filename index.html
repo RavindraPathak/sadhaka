@@ -120,7 +120,7 @@
       }
     </style>
 
-<link rel="stylesheet" href="/index.css">
+<link rel="stylesheet" href="./index.css">
   <script type="importmap">
 {
   "imports": {
@@ -133,14 +133,14 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="./index-cORAmVBB.js"></script>
+  <script type="module" crossorigin src="./assets/index-Bo7_PLBX.js"></script>
 </head>
   <body>
     <div id="root"></div>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./service-worker.js')
+          navigator.serviceWorker.register('/service-worker.js')
             .then(registration => {
               console.log('SW registered: ', registration);
             })

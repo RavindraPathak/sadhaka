@@ -1,7 +1,7 @@
 {
   "name": "Sadhaka - Spiritual Practice",
   "short_name": "Sadhaka",
-  "start_url": "./",
+  "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fdfbf7",
@@ -9,19 +9,14 @@
   "description": "A serene, minimalistic mobile application for spiritual practitioners.",
   "icons": [
     {
-      "src": "./sadhaka_192.png",
+      "src": "https://cdn-icons-png.flaticon.com/512/3663/3663348.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "./sadhaka_512.png",
+      "src": "https://cdn-icons-png.flaticon.com/512/3663/3663348.png",
       "sizes": "512x512",
       "type": "image/png"
-    },
-    {
-      "src": "./sadhaka_1024.png",
-      "type": "image/png",
-      "sizes": "1024x1024"
     }
   ]
 }
