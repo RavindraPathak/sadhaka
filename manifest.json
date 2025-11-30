@@ -1,9 +1,9 @@
 {
   "name": "Sadhaka - Spiritual Practice",
   "short_name": "Sadhaka",
-  "start_url": "./",
-  "display": "standalone",
-  "orientation": "portrait",
+  "start_url": "./index.html",
+  "display": "fillscreen",
+  "orientation": "any",
   "background_color": "#fdfbf7",
   "theme_color": "#fdfbf7",
   "description": "A serene, minimalistic mobile application for spiritual practitioners.",

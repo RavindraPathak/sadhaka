@@ -66,7 +66,7 @@ self.addEventListener('notificationclick', function(event) {
       }
       // If no window is open, open a new one
       if (clients.openWindow) {
-        return clients.openWindow('/');
+        return clients.openWindow('./');
       }
     })
   );
