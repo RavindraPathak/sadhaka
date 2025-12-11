@@ -10,147 +10,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="Sadhaka">
     <title>Sadhaka - Spiritual Practice</title>
-    <link rel="manifest" href="./manifest.json">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            fontFamily: {
-              serif: ['Quicksand', 'sans-serif'],
-              sans: ['Quicksand', 'sans-serif'],
-            },
-            colors: {
-              spiritual: {
-                50: '#FDFCF8',
-                100: '#F2F0E9',
-                200: '#E2DCCE',
-                300: '#C8BEAB',
-                400: '#A69880',
-                500: '#857560',
-                600: '#635645',
-                700: '#463C2F',
-                800: '#2C251D',
-                900: '#15110D',
-                deep: '#0F172A',
-                gold: '#C5A059',
-                'gold-light': '#E6C885',
-              },
-              pastel: {
-                sky: '#E0F2FE',
-                peach: '#FFEDD5',
-                lavender: '#E0E7FF',
-                mint: '#D1FAE5',
-                rose: '#FFE4E6',
-              }
-            },
-            borderRadius: {
-                '4xl': '2.5rem',
-                '5xl': '3rem',
-            },
-            boxShadow: {
-                'soft': '0 20px 40px -15px rgba(0,0,0,0.06)',
-                'glow': '0 0 40px rgba(197, 160, 89, 0.25)',
-                'float': '0 10px 30px -10px rgba(0,0,0,0.08)',
-            },
-            animation: {
-              'breathe-in': 'expand 4s ease-in-out forwards',
-              'breathe-out': 'contract 4s ease-in-out forwards',
-              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-              'spin-slow': 'spin 60s linear infinite',
-              'fade-in': 'fadeIn 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) forwards',
-              'slide-in-bottom': 'slideInBottom 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) forwards',
-              'slide-in-right': 'slideInRight 0.3s cubic-bezier(0.2, 0.8, 0.2, 1) forwards',
-              'float': 'float 6s ease-in-out infinite',
-            },
-            keyframes: {
-              expand: {
-                '0%': { transform: 'scale(1)', opacity: '0.8' },
-                '100%': { transform: 'scale(1.5)', opacity: '1' },
-              },
-              contract: {
-                '0%': { transform: 'scale(1.5)', opacity: '1' },
-                '100%': { transform: 'scale(1)', opacity: '0.8' },
-              },
-              fadeIn: {
-                '0%': { opacity: '0', transform: 'translateY(10px)' },
-                '100%': { opacity: '1', transform: 'translateY(0)' },
-              },
-              slideInBottom: {
-                '0%': { transform: 'translateY(100%)' },
-                '100%': { transform: 'translateY(0)' },
-              },
-              slideInRight: {
-                '0%': { transform: 'translateX(100%)', opacity: '0' },
-                '100%': { transform: 'translateX(0)', opacity: '1' },
-              },
-              float: {
-                '0%, 100%': { transform: 'translateY(0)' },
-                '50%': { transform: 'translateY(-15px)' },
-              }
-            }
-          },
-        },
-      }
-    </script>
-    <style type="text/tailwindcss">
-      @layer components {
-        .card-glass {
-          @apply bg-white/40 dark:bg-white/5 backdrop-blur-md border border-white/40 dark:border-white/5 transition-all duration-500;
-        }
-        .card-solid {
-          @apply bg-white dark:bg-spiritual-900/60 rounded-[2.5rem] shadow-soft border border-spiritual-100 dark:border-spiritual-700/50 backdrop-blur-sm transition-all duration-300;
-        }
-        .card-feature {
-          @apply relative overflow-hidden rounded-[3rem] p-10 cursor-pointer group transition-all duration-500 hover:-translate-y-2 shadow-soft hover:shadow-lg border border-white dark:border-white/5;
-        }
-        .btn-icon {
-          @apply p-3 rounded-full transition-all hover:scale-105 active:scale-95 shadow-sm;
-        }
-        .text-heading {
-          @apply text-3xl font-bold text-spiritual-900 dark:text-spiritual-100;
-        }
-      }
-    </style>
-    <style>
-      body {
-        background-color: #FDFCF8; /* spiritual-50 */
-        color: #2C251D; /* spiritual-800 */
-        -webkit-font-smoothing: antialiased;
-        transition: background-color 0.6s ease, color 0.6s ease;
-        font-family: 'Quicksand', sans-serif;
-        font-size: 18px; /* Larger base font size */
-      }
-      .dark body {
-        background-color: #0F172A; 
-        color: #F2F0E9;
-      }
-      /* Hide scrollbar for clean UI */
-      ::-webkit-scrollbar {
-        width: 0px;
-        background: transparent;
-      }
-      .safe-area-pb {
-        padding-bottom: env(safe-area-inset-bottom);
-      }
-      
-      /* Enhanced Glassmorphism */
-      .glass {
-        background: rgba(255, 255, 255, 0.65);
-        backdrop-filter: blur(16px) saturate(180%);
-        -webkit-backdrop-filter: blur(16px) saturate(180%);
-        border: 1px solid rgba(255, 255, 255, 0.6);
-      }
-      .dark .glass {
-        background: rgba(15, 23, 42, 0.6);
-        border: 1px solid rgba(255, 255, 255, 0.08);
-      }
-    </style>
+    <link rel="manifest" href="/assets/manifest-CDUcRzfc.json">
 
-<link rel="stylesheet" href="./index.css">
-  <script type="importmap">
+    <script type="importmap">
 {
   "imports": {
     "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
@@ -158,18 +20,29 @@
     "react": "https://aistudiocdn.com/react@^19.2.0",
     "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
     "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0",
-    "suncalc": "https://esm.sh/suncalc@1.9.0"
+    "suncalc": "https://esm.sh/suncalc@1.9.0",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.2",
+    "vite": "https://aistudiocdn.com/vite@^7.2.7",
+    "workbox-precaching": "https://aistudiocdn.com/workbox-precaching@^7.4.0",
+    "vite-plugin-pwa": "https://aistudiocdn.com/vite-plugin-pwa@^1.2.0",
+    "workbox-routing": "https://aistudiocdn.com/workbox-routing@^7.4.0",
+    "workbox-strategies": "https://aistudiocdn.com/workbox-strategies@^7.4.0",
+    "workbox-expiration": "https://aistudiocdn.com/workbox-expiration@^7.4.0",
+    "workbox-cacheable-response": "https://aistudiocdn.com/workbox-cacheable-response@^7.4.0"
   }
 }
 </script>
-  <script type="module" crossorigin src="./assets/index-2Bv_vk10.js"></script>
+  <script type="module" crossorigin src="/assets/index-DuSORXgl.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vendor-DDTLr4RV.js">
+  <link rel="modulepreload" crossorigin href="/assets/utils-CwGoM2ch.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-DpRBabrO.css">
 </head>
   <body>
     <div id="root"></div>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./service-worker.js')
+          navigator.serviceWorker.register('/service-worker.js')
             .then(registration => {
               console.log('SW registered: ', registration);
             })

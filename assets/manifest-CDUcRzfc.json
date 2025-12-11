@@ -3,45 +3,33 @@
   "name": "Sadhaka - Spiritual Practice",
   "short_name": "Sadhaka",
   "start_url": "/",
-  "display": "fullscreen",
-  "orientation": "any",
+  "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#FDFCF8",
   "theme_color": "#FDFCF8",
   "description": "A serene, minimalistic mobile application for spiritual practitioners featuring breathwork, meditation, and journaling.",
   "categories": ["lifestyle", "health", "productivity"],
   "icons": [
     {
-      "src": "/assets/images/sadhaka_1024.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/assets/images/sadhaka_1024.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "/assets/images/sadhaka_192.png",
+      "src": "https://cdn-icons-png.flaticon.com/512/3663/3663348.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/images/sadhaka_192.png",
+      "src": "https://cdn-icons-png.flaticon.com/512/3663/3663348.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/assets/images/sadhaka_512.png",
+      "src": "https://cdn-icons-png.flaticon.com/512/3663/3663348.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/assets/images/sadhaka_512.png",
+      "src": "https://cdn-icons-png.flaticon.com/512/3663/3663348.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -49,15 +37,15 @@
   ],
   "screenshots": [
     {
-      "src": "/assets/images/sc1.jpeg",
-      "sizes": "720x1280",
-      "type": "image/png",
+      "src": "https://images.unsplash.com/photo-1545389336-cf090694435e?auto=format&fit=crop&w=1000&q=80",
+      "sizes": "1000x2000",
+      "type": "image/jpeg",
       "form_factor": "narrow"
     },
     {
-      "src": "/assets/images/sc2.jpeg",
-      "sizes": "720x1280",
-      "type": "image/png",
+      "src": "https://images.unsplash.com/photo-1519834785169-98be25ec3f84?auto=format&fit=crop&w=2000&q=80",
+      "sizes": "2000x1000",
+      "type": "image/jpeg",
       "form_factor": "wide"
     }
   ]
