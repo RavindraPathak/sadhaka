@@ -1,8 +1,11 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.sadhaka.app",
-        "sha256_cert_fingerprints": ["69:D1:CE:87:A6:78:D6:3F:D4:E5:F7:8F:78:14:EB:2F:0A:C8:5B:15:A5:47:B9:F1:3D:D6:8C:B9:C3:DC:90:6E"]
-      }
-    }]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.sadhaka.app",
+      "sha256_cert_fingerprints":
+        ["69:D1:CE:87:A6:78:D6:3F:D4:E5:F7:8F:78:14:EB:2F:0A:C8:5B:15:A5:47:B9:F1:3D:D6:8C:B9:C3:DC:90:6E"]
+    }
+  }
+]
