@@ -1,0 +1,96 @@
+PRIVACY POLICY FOR Sadhaka
+
+
+Sadhaka (package name: `com.sadhaka.app`) is provided by Ravindra Pathak (). This Privacy Policy explains how we collect, use, and protect information when you use the app. By using Sadhaka, you agree to this Policy.
+
+
+
+INFORMATION WE COLLECT
+
+• Device information (model, OS version, language, country).
+• Purchase and subscription status (no full payment details stored).
+
+
+
+PERMISSIONS AND PURPOSE
+
+• Approximate or precise location to provide location-based features.
+• Microphone to record audio for in-app features.
+• Files/Storage to import, export, or cache content.
+
+
+
+HOW WE USE INFORMATION
+
+• Provide and improve app functionality.
+• Personalize content and features.
+• Validate purchases, manage subscriptions, and provide premium access.
+
+
+
+SHARING OF INFORMATION
+
+• Google Play Billing for purchases and subscriptions.
+• Service providers that help us operate the app (hosting, support) under confidentiality obligations.
+• Legal authorities if required by law, to protect rights, or investigate misuse.
+
+
+
+DATA RETENTION
+
+We keep personal data only as long as necessary for the purposes described in this Policy or as required by law. You may request deletion of your account or certain data by contacting us at rpathak.sg@gmail.com.
+
+
+
+SECURITY
+
+We implement reasonable technical and organizational measures to protect information. However, no method of transmission or storage is 100% secure.
+
+
+
+CHILDREN’S PRIVACY
+
+The app is not directed to children under 13 (or the minimum age in your jurisdiction). If you believe a child provided personal information, contact us to delete it.
+
+
+
+YOUR RIGHTS & CHOICES
+
+Depending on your location (e.g., EU/EEA, UK, California), you may have rights to access, correct, delete, or port your data, and object to certain processing. To exercise rights, contact us at rpathak.sg@gmail.com.
+
+
+
+INTERNATIONAL TRANSFERS
+
+Your information may be processed and stored in countries other than your own. Where required, we rely on appropriate safeguards for international transfers.
+
+
+
+THIRD-PARTY SERVICES & SDKS
+
+The app may integrate the following services:
+
+- **Payments**: Google Play Billing.
+
+
+
+CHANGES TO THIS POLICY
+
+We may update this Policy to reflect changes to the app or applicable laws. We will post the updated Policy with a new “Effective date”.
+
+
+
+CONTACT US
+
+If you have questions about this Policy or privacy practices, contact us:
+
+- Email: rpathak.sg@gmail.com
+- Website: https://ravindrapathak.github.io/sadhaka/
+- Address: Singapore
+- Country/Region: Singapore
+
+
+
+EFFECTIVE DATE
+
+2026-01-04
